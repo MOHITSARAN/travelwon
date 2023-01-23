@@ -49,6 +49,14 @@
   font-weight: 300;
 }
 
+
+
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
   color: #777777;
   font-family: "Poppins", sans-serif;
@@ -368,6 +376,7 @@ td, th {
 
 .mb-10 {
   margin-bottom: 10px;
+  color: steelblue;
 }
 
 .mb-15 {
@@ -2165,8 +2174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-area {
-  margin-top: -56px;
-  border-radius: 10px;
+  margin-top: -100px;
   background: url(../img/header-bg.jpg) center;
   background-size: cover;
 }
@@ -2178,8 +2186,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-area .overlay-bg {
-  border-radius: 10px;
-  background-color: rgba(4, 9, 30, 0.5);
+  background-color:rgb(4 9 30 / 27%);
 }
 
 .banner-content {
@@ -2346,14 +2353,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-area {
-  background: url(../img/service-bg.jpg) center;
+  background: url(../img/service-bg.jpeg) center;
   background-size: cover;
   border-radius: 10px;
 }
 
 .service-area .overlay-bg {
   border-radius: 10px;
-  background: rgba(4, 9, 30, 0.8);
+  background: rgba(4, 9, 30, 0.2);
 }
 
 .services-area {
@@ -2363,7 +2370,7 @@ h1, h2, h3, h4, h5, h6 {
 .single-service {
   border-radius: 10px;
   text-align: center;
-  padding: 30px;
+  padding: 38px;
   background-color: white;
   box-shadow: 0px 10px 30px 0px rgba(138, 185, 45, 0.2);
 }
@@ -2627,3 +2634,14 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
+
+@media only screen and (max-width: 992px) {
+  .contact {
+    display: block !important;
+  }
+}
+
+.contact {
+  display: none;
+}
+

@@ -20,21 +20,6 @@ $(document).ready(function(){
           $('select').niceSelect();
     };
 
-    $('.img-pop-up').magnificPopup({
-        type: 'image',
-        gallery:{
-        enabled:true
-        }
-    });
-
-    $('.play-btn').magnificPopup({
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
- 
 
     // Select all links with hashes
     $('.navbar-nav a[href*="#"]')
@@ -102,32 +87,5 @@ $(document).ready(function(){
 
     });
   
-
-
-  $('.filters ul li').click(function(){
-    $('.filters ul li').removeClass('active');
-    $(this).addClass('active');
-    
-    var data = $(this).attr('data-filter');
-    $grid.isotope({
-      filter: data
-    })
-  });
-
-
-  if(document.getElementById("portfolio")){
-        var $grid = $(".grid").isotope({
-          itemSelector: ".all",
-          percentPosition: true,
-          masonry: {
-            columnWidth: ".all"
-          }
-        })
-  };
-
-
-
-
-
 
  });
