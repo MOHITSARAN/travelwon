@@ -1,5 +1,4 @@
 # TravelWon -
-##Travel Static Website
 This is a static website showcasing various travel destinations around the world. It provides information about popular tourist spots, attractions, and recommendations for travelers. The website is designed to be visually appealing and user-friendly, making it easy for visitors to explore and plan their next adventure.
 
 #Website Preview
